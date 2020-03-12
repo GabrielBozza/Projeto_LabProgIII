@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "pt-BR" id = "html">
+<head>
+  <meta charset = 'UTF-8'>
+  <title>Aula 01 JS</title>
+  <link rel="stylesheet" href="Aula_01_JS.css">
+</head>
+<body id = "corpo">
+
+  <div class="textCadastro">
+    <center>Cadastre-se</center>
+  </div>
+
+  <div class="formulario_cadastro">
+    <br>
+
+    <form action="" id="form_cadastro" name="form_cadastro">
+      <label for="fname">Nome completo:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="numero">Número:</label><br>
+      <input type="number" id="numero" name="numero"><br>
+      <label for="ano">Ano de graduação:</label><br>
+      <select id="ano" name="ano">
+        <option value="1">1° ano</option>
+        <option value="2">2° ano</option>
+        <option value="3">3° ano</option>
+        <option value="4">4° ano</option>
+        <option value="5">5° ano</option>
+      </select><br>
+      <label for="login">Nome de usuário (login):</label><br>
+      <input type="text" id="login" name="login"><br>
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" name="senha" value=""><br><br>
+      <input type="submit" id = "buttoncadastrar" value="CADASTRAR" onclick="toCelcius()">
+    </form>
+
+  </div>
+
+  <center><button type="button" id = "buttonJS" onclick="funcao1()">BOTAO 1</button></center> 
+
+  <div class="Paragrafo1">
+    <center><button type="button" id = "buttonJS" onclick="funcao2()">BOTAO 2</button></center> 
+    <center><p id="paragrafo1">Paragrafo 01-JS</p></center>
+  </div>
+
+  <script src = "Aula_01_JS.js"></script>
+</body>
+</html>
