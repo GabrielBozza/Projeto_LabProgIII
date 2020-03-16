@@ -113,21 +113,23 @@ input[type=number]:hover {
 
 input[type=text]:focus {
     outline-width: 0;
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 2pt 2pt #ccc;
 }
 
 input[type=password]:focus {
     outline-width: 0;
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 2pt 2pt #ccc;
 }
 
 input[type=number]:focus {
     outline-width: 0;
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 2pt 2pt #ccc;
 }
 
 .formulario_cadastro {
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(15px);
     color: white;
